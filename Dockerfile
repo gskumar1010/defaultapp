@@ -1,4 +1,4 @@
-FROM ibmcom/websphere-traditional:latest-ubi
+FROM quay.io/kmoini/websphere-traditional:latest
 COPY app.ear /work/config/app.ear
 COPY install_app.py /work/config/install_app.py
 COPY was-config.props /work/config/was-config.props
